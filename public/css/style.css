@@ -1,0 +1,43 @@
+/**
+* Custom CSS
+*/
+header{
+    margin-bottom: 50px;
+}
+nav .brand-logo{
+    left: 185px;
+}
+
+#btn-del{
+    position : absolute;
+    right: 25px;
+    bottom: 25px;
+}
+#btn-edit{
+    position : absolute;
+    right: 125px;
+    bottom: 25px;
+}
+
+#checkSaison label{
+    margin-right: 10px;
+}
+
+
+
+.card.ng-leave {
+    -webkit-animation: bounceOut 1s;
+    -moz-animation: bounceOut 1s;
+    -ms-animation: bounceOut 1s;
+    animation: bounceOut 1s;
+}
+
+
+/**
+* For GMap
+*/
+
+#map {
+    height: 450px;
+    width: 100%;
+}
